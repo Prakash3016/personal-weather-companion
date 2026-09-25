@@ -1,7 +1,7 @@
 export interface GeoPlace {
   name: string;
-  admin1?: string;
-  country?: string;
+  admin1?: string | undefined;
+  country?: string | undefined;
   latitude: number;
   longitude: number;
 }
