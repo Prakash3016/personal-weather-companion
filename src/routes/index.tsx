@@ -154,7 +154,7 @@ function Home() {
           ) : w && activePersona ? (
             <>
               <h2 className="mb-5 text-2xl font-semibold">
-                {activePersona.emoji} {activePersona.label} homepage
+                Your {activePersona.label.toLowerCase()} homepage
               </h2>
               <WidgetGrid ids={activePersona.widgets} weather={w} />
             </>

@@ -39,7 +39,7 @@ function About() {
           {PERSONAS.map((p) => (
             <li key={p.id} className="glass-card rounded-2xl p-4">
               <p className="font-display font-semibold">
-                {p.emoji} {p.label}
+                {p.label}
               </p>
               <p className="text-sm text-muted-foreground">{p.tagline}</p>
             </li>
